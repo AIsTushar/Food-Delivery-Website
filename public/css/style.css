@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NavBar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 104px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #f40469;
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(../img/Preset.png);
+  background-size: contain;
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+
+.search-bar {
+  width: 815px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.search-bar .location {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.search-bar input {
+  flex: 3;
+  padding: 10px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #c5cbd1;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.search-bar button {
+  flex: 1;
+  background: #ff006e;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+}
+
+/* Section download APP */
+.app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  padding: 160px;
+}
+
+.app .app-left {
+  width: 605px;
+  height: 572px;
+}
+
+.app .app-right {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app .app-right h3 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.app .app-right p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.app .app-right button {
+  background: #ff006e;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+
+  width: 246px;
+  height: 56px;
+
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+}
