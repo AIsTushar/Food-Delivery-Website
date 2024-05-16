@@ -3,47 +3,305 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
     <link rel="stylesheet" href="./public/css/style.css" />
     <title>FOOD DELIVERY WEBSITE</title>
   </head>
   <body>
-    <!-- NavBar -->
-    <nav class="nav">
-      <p class="logo">FoodDelivery</p>
-      <a href="#">Sign In</a>
-    </nav>
+    <div id="main">
+      <!-- NavBar -->
+      <nav class="nav">
+        <p class="logo">FoodDelivery</p>
+        <a href="#">Sign In</a>
+      </nav>
 
-    <!--  -->
-    <!-- Section Hero -->
-    <section class="hero">
-      <h1>Your favorite food, delivered to you</h1>
-      <div class="search-bar">
-        <div class="location">
-          <img src="./public/img/Location-1.png" alt="location pin" />
-          New York
+      <!--  -->
+      <!-- Section Hero -->
+      <section class="hero">
+        <h1>Your favorite food, delivered to you</h1>
+        <div class="search-bar">
+          <div class="location">
+            <img src="./public/img/Location-1.png" alt="location pin" />
+            New York
+          </div>
+          <input type="text" />
+          <button type="submit">Search</button>
         </div>
-        <input type="text" />
-        <button type="submit">Search</button>
-      </div>
-    </section>
+      </section>
 
-    <!--  -->
-    <!-- Section download APP -->
-    <section class="app">
-      <div class="app-left">
-        <img src="./public/img/Images.png" alt="image" />
-      </div>
-      <div class="app-right">
-        <h3>Take a taste, come join us. Life is so endlessly delicious</h3>
+      <!--  -->
+      <!-- Section download APP -->
+      <section class="app">
+        <div class="app-left">
+          <img src="./public/img/Images.png" alt="image" />
+        </div>
+        <div class="app-right">
+          <h3>Take a taste, come join us. Life is so endlessly delicious</h3>
 
-        <p>
-          In the artist's own experience, of course, art is fundamentally
-          indefinable, unsayable; there is something sacred about its demands
-          upon the soul, something inherently mysterious in the forms it takes
-        </p>
+          <p>
+            In the artist's own experience, of course, art is fundamentally
+            indefinable, unsayable; there is something sacred about its demands
+            upon the soul, something inherently mysterious in the forms it takes
+          </p>
 
-        <button>Download our App</button>
-      </div>
-    </section>
+          <button>Download our App</button>
+        </div>
+      </section>
+
+      <!-- Section Popular -->
+      <section class="popular-area">
+        <!-- Header -->
+        <div class="header">
+          <p class="popular-title">Popular on New York area</p>
+          <p class="popular-view-all">
+            View All
+            <img src="./public/img/arrow-right.png" alt="arrow-right" />
+          </p>
+        </div>
+
+        <!-- Card part -->
+        <div class="popular-grid">
+          <!-- left -->
+          <div class="popular-grid-left">
+            <!-- card 1 -->
+            <div class="card">
+              <img src="./public/img/Photo_1.png" alt="photo" />
+              <h3>Restaurant Name</h3>
+              <div class="card-details">
+                <div class="card-details-left">
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Delivery.png"
+                    alt="Icon"
+                  />
+                  <p>$ 9.99 Delivery Fee</p>
+                </div>
+                <div>
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Time.png"
+                    alt="icon"
+                  />
+                  <p>10 - 15 mins</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right part -->
+          <div class="popular-grid-right">
+            <!-- card 2 -->
+            <div class="card">
+              <img src="./public/img/Photo_2.png" alt="photo" />
+              <h3>Restaurant Name</h3>
+              <div class="card-details">
+                <div class="card-details-left">
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Delivery.png"
+                    alt="Icon"
+                  />
+                  <p>$ 9.99 Delivery Fee</p>
+                </div>
+                <div>
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Time.png"
+                    alt="icon"
+                  />
+                  <p>10 - 15 mins</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card">
+              <img src="./public/img/Photo_3.png" alt="photo" />
+              <h3>Restaurant Name</h3>
+              <div class="card-details">
+                <div class="card-details-left">
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Delivery.png"
+                    alt="Icon"
+                  />
+                  <p>$ 9.99 Delivery Fee</p>
+                </div>
+                <div>
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Time.png"
+                    alt="icon"
+                  />
+                  <p>10 - 15 mins</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card">
+              <img src="./public/img/Photo_4.png" alt="photo" />
+              <h3>Restaurant Name</h3>
+              <div class="card-details">
+                <div class="card-details-left">
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Delivery.png"
+                    alt="Icon"
+                  />
+                  <p>$ 9.99 Delivery Fee</p>
+                </div>
+                <div>
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Time.png"
+                    alt="icon"
+                  />
+                  <p>10 - 15 mins</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 5 -->
+            <div class="card">
+              <img src="./public/img/Photo_5.png" alt="photo" />
+              <h3>Restaurant Name</h3>
+              <div class="card-details">
+                <div class="card-details-left">
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Delivery.png"
+                    alt="Icon"
+                  />
+                  <p>$ 9.99 Delivery Fee</p>
+                </div>
+                <div>
+                  <img
+                    class="card-icon"
+                    src="./public/img/Icon Time.png"
+                    alt="icon"
+                  />
+                  <p>10 - 15 mins</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="how-works">
+        <h3>How it works</h3>
+        <div class="how-works-cards">
+          <!-- Card 1 -->
+          <div class="works-card works-card-1">
+            <div class="works-card-img">
+              <img src="./public/img/phone.png" alt="icon" />
+            </div>
+            <h4>Order via App</h4>
+            <p>
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="works-card works-card-2">
+            <div class="works-card-img">
+              <img src="./public/img/Food-2.png" alt="icon" />
+            </div>
+            <h4>Order via App</h4>
+            <p>
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="works-card works-card-3">
+            <div class="works-card-img">
+              <img src="./public/img/Chicken.png" alt="icon" />
+            </div>
+
+            <h4>Order via App</h4>
+            <p>
+              In the artist's own experience, of course, art is fundamentally
+              indefinable, unsayable; there is something sacred about its
+              demands
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION download -->
+      <section class="download">
+        <div class="download-body">
+          <div class="download-text">
+            <p>Food Delivery helps you bring food to your front door</p>
+          </div>
+          <button class="btn-download">Download our App</button>
+          <button class="btn-brows">Browse food</button>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+
+      <section class="testimonial">
+        <h3 class="testimonial-heading">What our food lovers said</h3>
+        <div class="testimonial-p">
+          <p>
+            In the artist's own experience, of course, art is fundamentally
+            indefinable, unsayable; there is something sacred about its demands
+            upon the soul, something inherently mysterious in the forms it takes
+          </p>
+        </div>
+        <div class="box">
+          <img
+            class="icon"
+            src="./public/img/Chevron left.png"
+            alt="left icon"
+          />
+          <div class="testimony">
+            <img src="./public/img/Photo.png" alt="" />
+            <div class="message">
+              <p>
+                In the artist's own experience, of course, art is fundamentally
+                indefinable, unsayable
+              </p>
+            </div>
+            <p class="person">Tim Oliver, ordered Burger Extracheese</p>
+          </div>
+          <img class="icon" src="./public/img/Chevron right.png" alt="" />
+        </div>
+        <div class="company-logo">
+          <img src="./public/img/company/logo 1.png" alt="company logo" />
+          <img src="./public/img/company/logo 2.png" alt="company logo" />
+          <img src="./public/img/company/logo 3.png" alt="company logo" />
+          <img src="./public/img/company/logo 4.png" alt="company logo" />
+          <img src="./public/img/company/logo 5.png" alt="company logo" />
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <section class="footer"></section>
+
+      <!-- main div end -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="./public/js/script.js"></script>
   </body>
 </html>
