@@ -26,6 +26,14 @@ a {
   letter-spacing: 0.3px;
   text-align: left;
   color: #f40469;
+  cursor: pointer;
+  transition: transform 0.3s, text-shadow 0.3s;
+}
+
+.logo:hover {
+  /* transform: scale(1.001); */
+  transform: translateY(-1px);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nav a {
@@ -33,6 +41,10 @@ a {
   font-weight: 600;
   line-height: 24px;
   text-align: left;
+  transition: transform 0.3s;
+}
+.nav a:hover {
+  transform: translateY(-1px);
 }
 
 /* Hero Section */
@@ -75,6 +87,7 @@ a {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .search-bar input {
@@ -84,6 +97,9 @@ a {
   border-top: none;
   border-bottom: none;
   border-left: 1px solid #c5cbd1;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 .search-bar input:focus {
@@ -103,6 +119,12 @@ a {
   line-height: 24px;
   text-align: center;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-bar button:hover {
+  background: #cc0058;
 }
 
 /* Section download APP */
@@ -158,8 +180,16 @@ a {
   line-height: 24px;
   letter-spacing: 1px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.app .app-right button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*  */
 /* Section Popular */
 .popular-area {
   padding: 20px 106px;
@@ -209,6 +239,16 @@ a {
 
 .card {
   padding: 20px;
+  cursor: pointer;
+}
+
+.card img {
+  transition: all 0.6s ease;
+}
+
+.card img:hover {
+  transform: scale(1.01);
+  filter: brightness(80%);
 }
 
 .card h3 {
@@ -271,12 +311,19 @@ a {
 
 .works-card-1 {
   box-shadow: 4px 0px 4px #5249491a;
+  transition: transform 0.3s ease;
+}
+
+.works-card-1:hover {
+  transform: scale(1.01);
+  box-shadow: 6px 0px 5px #5249491a;
 }
 
 .works-card-2 {
   position: relative;
   box-shadow: 0px 0px px #5249491a;
   overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .works-card-2::before,
@@ -287,7 +334,7 @@ a {
   bottom: 0;
   width: 15px;
   background-color: transparent;
-  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 0 15px #5249491a;
 }
 
 .works-card-2::before {
@@ -299,8 +346,18 @@ a {
   transform: scaleX(-1);
 }
 
+.works-card-2:hover {
+  transform: scale(1.01);
+}
+
 .works-card-3 {
   box-shadow: -4px 0px 4px #5249491a;
+  transition: transform 0.3s ease;
+}
+
+.works-card-3:hover {
+  transform: scale(1.01);
+  box-shadow: -6px 0px 6px #5249491a;
 }
 
 .works-card h4 {
@@ -338,8 +395,8 @@ a {
 
 /* section download */
 .download {
-  height: 70vh;
-  margin: 0 104px;
+  width: 80%;
+  margin: 0 auto 104px;
 }
 
 .download-body {
@@ -376,6 +433,12 @@ a {
   letter-spacing: 1px;
   border-radius: 50px;
   text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-download:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn-brows {
@@ -383,22 +446,29 @@ a {
   height: 56px;
   color: #fff;
   background: transparent;
+  border-radius: 50px;
   border: none;
   font-size: 21px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 1px;
   text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-brows:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Section Testimonial */
 .testimonial {
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .testimonial-heading {
   font-size: 48px;
   font-weight: 400;
@@ -473,6 +543,67 @@ a {
 /* Footer */
 .footer {
   background: url(../img/footer_background.png);
-  height: 592px;
-  width: auto;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  padding-top: 204px;
+  padding-bottom: 104px;
+}
+
+.footer-first-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 104px;
+  width: 50vw;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.footer-first-part h3 {
+  color: #f40469;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.footer-second-part {
+  margin-left: 104px;
+  margin-top: 104px;
+  display: flex;
+  gap: 204px;
+}
+
+.footer-second-part p {
+  color: #000000d9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.footer-second-part-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-second-part-right {
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
 }
