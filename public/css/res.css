@@ -1,0 +1,276 @@
+/* Responsive */
+
+@media (max-width: 1025px) {
+  .hero h1 {
+    font-size: 46px;
+  }
+
+  .search-bar {
+    width: 700px;
+    height: 50px;
+  }
+
+  .search-bar .location {
+    gap: 6px;
+    font-size: 16px;
+  }
+
+  .search-bar input {
+    font-size: 16px;
+  }
+
+  /* download app */
+  .app {
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  .app .app-left {
+    width: 505px;
+  }
+
+  .app .app-right h3 {
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.2px;
+  }
+
+  .app .app-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+
+  /* Popular section */
+  .popular-area {
+    padding: 20px 25px;
+    width: 100%;
+  }
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card-details {
+    font-size: 12px;
+  }
+
+  .card-details-left {
+    margin-right: 20px;
+  }
+
+  /* Section How It Works */
+  .how-works {
+    width: 95%;
+  }
+
+  .how-works-cards {
+    width: 100%;
+  }
+
+  /* section download */
+  .download {
+    width: 85%;
+  }
+
+  /* Footer */
+  .footer {
+    background: url(../img/footer_background.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
+
+  .footer-first-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 104px;
+    width: 70vw;
+  }
+
+  .footer-second-part {
+    gap: 80px;
+  }
+  .footer-second-part-right {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 751px) {
+  /* Nav */
+  .nav {
+    padding: 14px 54px;
+  }
+
+  .logo {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  /* Hero */
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .search-bar {
+    width: 74vw;
+    height: 45px;
+  }
+
+  .search-bar .location {
+    flex: 1.2;
+    gap: 7px;
+    font-size: 14px;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+  }
+
+  .search-bar button {
+    flex: 1.2;
+    font-size: 14px;
+  }
+
+  /* download app */
+  .app {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .app .app-left {
+    width: 80%;
+  }
+  .app .app-right {
+    width: 65%;
+  }
+
+  .app .app-right h3 {
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.2px;
+  }
+
+  .app .app-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+
+  /* Popular section */
+  .popular-area {
+    padding: 20px 25px;
+    width: 100%;
+  }
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card-details {
+    font-size: 10px;
+  }
+
+  .card-details-left {
+    margin-right: 14px;
+  }
+
+  /* Section How It Works */
+  .how-works h3 {
+    font-size: 40px;
+  }
+  .works-card {
+    width: 260px;
+    height: 325px;
+    padding: 18px 26px;
+  }
+
+  .works-card h4 {
+    font-size: 16px;
+  }
+
+  .works-card p {
+    font-size: 12px;
+  }
+
+  .works-card-img {
+    height: 80px;
+    width: 96px;
+  }
+
+  /* SECTION download */
+  .download {
+    width: 90%;
+  }
+
+  .download-text {
+    width: 95%;
+  }
+
+  .download-text p {
+    font-size: 40px;
+  }
+
+  /* Section Testimonial */
+
+  .testimonial {
+    width: 90%;
+  }
+
+  .testimonial-heading {
+    font-size: 40px;
+  }
+
+  .testimonial-p {
+    width: 90%;
+  }
+
+  .testimonial-p p {
+    font-size: 14px;
+  }
+
+  .testimony {
+    gap: 20px;
+  }
+
+  .testimony img {
+    width: 65px;
+  }
+
+  .message {
+    width: 400px;
+    height: 100px;
+  }
+  .message p {
+    font-size: 22px;
+  }
+
+  .company-logo img {
+    width: 100px;
+  }
+
+  /* Footer */
+
+  .footer-first-part {
+    margin-left: 44px;
+  }
+  .footer-first-part h3 {
+    font-size: 24px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .footer-second-part {
+    gap: 80px;
+    margin-left: 44px;
+  }
+
+  .footer-second-part-right {
+    width: 50vw;
+  }
+}
