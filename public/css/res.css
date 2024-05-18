@@ -274,3 +274,259 @@
     width: 50vw;
   }
 }
+
+/* Mobile screen */
+@media (max-width: 431px) {
+  /* Nav */
+  .nav {
+    padding: 10px 24px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  /* hero section */
+  .hero {
+    width: auto;
+    height: 50vw;
+    background-size: cover;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .search-bar {
+    width: 74vw;
+    height: 35px;
+  }
+
+  .search-bar .location p {
+    display: none;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+  }
+
+  .search-bar button {
+    flex: 1.2;
+    font-size: 14px;
+  }
+
+  /* download app */
+  .app {
+    width: 80%;
+    margin: 80px auto;
+  }
+
+  .app .app-left {
+    width: 100%;
+  }
+  .app .app-right {
+    width: 100%;
+  }
+
+  .app .app-right h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  /* Popular section */
+  .popular-area .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .popular-view-all {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /* grid part */
+  .popular-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .popular-grid-left {
+    grid-template-columns: 1fr;
+  }
+
+  .popular-grid-right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .popular-grid-left .card {
+    grid-column: span 1;
+  }
+  .popular-grid-right .card:nth-child(1),
+  .popular-grid-right .card:nth-child(2),
+  .popular-grid-right .card:nth-child(3),
+  .popular-grid-right .card:nth-child(4),
+  .popular-grid-right .card:nth-child(5) {
+    grid-column: span 2;
+  }
+
+  /* Section How It Works */
+  .how-works {
+    margin: 50px auto 80px;
+  }
+
+  .how-works-cards {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  /* SECTION download */
+  .download {
+    width: 90%;
+    margin: 0 auto 84px;
+  }
+
+  .download-body {
+    padding: 15px 60px;
+    height: auto;
+    width: 100%;
+  }
+
+  .download-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .download-text p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+  }
+
+  .btn-download {
+    width: 50%;
+    height: 40px;
+    font-size: 10px;
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  .btn-brows {
+    width: 35%;
+    height: 40px;
+    border: none;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  /* Section Testimonial */
+  .testimonial {
+    width: 100%;
+  }
+
+  .testimonial-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .testimonial-p {
+    width: 90%;
+    height: auto;
+  }
+
+  .testimonial-p p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
+  .testimonial .box {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .box .icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .testimony {
+    border-radius: 25px;
+    padding: 16px 12px;
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    height: auto;
+    margin: 0px 10px 0;
+  }
+  .testimony img {
+    width: 45px;
+  }
+
+  .message {
+    width: auto;
+    height: auto;
+  }
+  .message p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+
+  .company-logo {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .company-logo img {
+    width: 60px;
+  }
+
+  /* Footer */
+
+  .footer {
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-top: 64px;
+    padding-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .footer-first-part {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .footer-first-part h3 {
+    font-size: 24px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .footer-second-part {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    margin-left: 14px;
+    margin-top: 44px;
+  }
+
+  .footer-second-part-right {
+    width: auto;
+    justify-content: space-between;
+  }
+
+  .footer-second-part p,
+  a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+}
