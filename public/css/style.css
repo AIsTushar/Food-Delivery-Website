@@ -28,7 +28,6 @@ a {
 .logo {
   font-size: 32px;
   font-weight: 700;
-  line-height: 48px;
   letter-spacing: 0.3px;
   text-align: left;
   color: var(--primary-color);
@@ -45,7 +44,6 @@ a {
 .nav a {
   font-size: 18px;
   font-weight: 600;
-  line-height: 24px;
   text-align: left;
   transition: transform 0.3s;
 }
