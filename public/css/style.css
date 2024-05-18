@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #f40469;
+  --primary-dark: #cc0058;
+  --primary-light: #ff006e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +31,7 @@ a {
   line-height: 48px;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #f40469;
+  color: var(--primary-color);
   cursor: pointer;
   transition: transform 0.3s, text-shadow 0.3s;
 }
@@ -110,7 +116,7 @@ a {
 
 .search-bar button {
   flex: 1;
-  background: #ff006e;
+  background: var(--primary-light);
   color: #fff;
   height: 100%;
   width: 100%;
@@ -124,7 +130,7 @@ a {
 }
 
 .search-bar button:hover {
-  background: #cc0058;
+  background: var(--primary-dark);
 }
 
 /* Section download APP */
@@ -367,7 +373,7 @@ a {
 }
 
 .works-card h4 {
-  color: #f40469;
+  color: var(--primary-color);
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -535,7 +541,7 @@ a {
 }
 
 .person {
-  color: #f40469;
+  color: var(--primary-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -581,7 +587,7 @@ a {
 }
 
 .footer-first-part h3 {
-  color: #f40469;
+  color: var(--primary-color);
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
