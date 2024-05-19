@@ -1,6 +1,6 @@
 # FOOD DELIVERY WEBSITE
 
-This is a single-page front-end website for a food delivery service. The website is designed using HTML and CSS. It is responsive and adapts to two breakpoints: 1025px and 751px.
+This is a single-page front-end website for a food delivery service. The website is designed using HTML and CSS. It is responsive and adapts to three breakpoints: 1025px, 751px and 431px.
 
 ## live Link
 
@@ -23,6 +23,7 @@ This is a single-page front-end website for a food delivery service. The website
 
 - **1025px**: For tablets and smaller laptops.
 - **751px**: For mobile devices.
+- **431px**: For mobile devices.
 
 ### Locomotive Scroll
 
